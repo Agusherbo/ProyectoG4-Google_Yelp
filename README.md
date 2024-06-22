@@ -65,3 +65,4 @@ Conocer cual seria la ubicacion geografica mas adecuada para la apertura de una 
 - *Fórmula:* (Calificación de reseñas negativas) / (Calificación Total de reseñas)
   
 
+.
