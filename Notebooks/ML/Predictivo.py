@@ -11,14 +11,12 @@ from sklearn.metrics import mean_squared_error
 def load_data():
     ruta1= "..\..\Data\Parquet\Sitios.parquet"
     ruta2= "..\..\Data\Parquet\Scraping_sitios_google.parquet"
-    ruta3= "..\..\Data\Parquet\user.parquet"
     ruta4= "..\..\Data\Parquet\Reviews_florida.parquet"
     ruta5= "..\..\Data\Parquet\review.parquet"
     ruta6= "..\..\Data\Parquet\business.parquet"
     
     dfSitios = pd.read_parquet(ruta1)
     dfScraping = pd.read_parquet(ruta2)
-    dfuser = pd.read_parquet(ruta3)
     dfReviewsFL = pd.read_parquet(ruta4)
     dfreview = pd.read_parquet(ruta5)
     dfbusiness = pd.read_parquet(ruta6)
