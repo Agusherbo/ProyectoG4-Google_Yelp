@@ -9,11 +9,11 @@ from sklearn.metrics import mean_squared_error
 # Función para cargar datos
 @st.cache_data
 def load_data():
-    ruta1= "..\..\Data\Parquet\Sitios.parquet"
-    ruta2= "..\..\Data\Parquet\Scraping_sitios_google.parquet"
-    ruta4= "..\..\Data\Parquet\Reviews_florida.parquet"
-    ruta5= "..\..\Data\Parquet\review.parquet"
-    ruta6= "..\..\Data\Parquet\business.parquet"
+    ruta1= r"C:\Users\juanc.DESKTOP-LGMDQP1\OneDrive\Documentos\Proyecto Henry Final\ProyectoG4-Google_Yelp\Data\Parquet\Sitios.PARQUET"
+    ruta2= r"C:\Users\juanc.DESKTOP-LGMDQP1\OneDrive\Documentos\Proyecto Henry Final\ProyectoG4-Google_Yelp\Data\Parquet\Scraping_sitios_google.PARQUET"
+    ruta4= r"C:\Users\juanc.DESKTOP-LGMDQP1\OneDrive\Documentos\Proyecto Henry Final\ProyectoG4-Google_Yelp\Data\Parquet\Reviews_florida.PARQUET"
+    ruta5= r"C:\Users\juanc.DESKTOP-LGMDQP1\OneDrive\Documentos\Proyecto Henry Final\ProyectoG4-Google_Yelp\Data\Parquet\review.PARQUET"
+    ruta6= r"C:\Users\juanc.DESKTOP-LGMDQP1\OneDrive\Documentos\Proyecto Henry Final\ProyectoG4-Google_Yelp\Data\Parquet\business.PARQUET"
     
     dfSitios = pd.read_parquet(ruta1)
     dfScraping = pd.read_parquet(ruta2)
