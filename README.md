@@ -65,4 +65,10 @@ Conocer cual seria la ubicacion geografica mas adecuada para la apertura de una 
 - *Fórmula:* (Calificación de reseñas negativas) / (Calificación Total de reseñas)
   
 
-.
+## Deploy en Streamlit
+
+Para el deploy del modelo de ML se seleccionó la plataforma Streamlit que es una framework de aplicacion de codigo abierto para crear y ejecutar aplicaciones y sitios web, permitiendo el despliegue automático desde GitHub.
+El servicio queda corriendo en [aquí](https://app-g4-giby5zg8jfkqmz6pappsdyt.streamlit.app/)
+
+> [!NOTE]
+> Para el despliegue automático, Streamlit utiliza GitHub. Con el fin de optimizar el almacenamiento del repositoriom, se realizó un repositorio exclusivo para el deploy, el cual se encuentra [aquí](https://github.com/Agusherbo/Streamlit-G4)
