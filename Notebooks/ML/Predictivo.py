@@ -21,10 +21,10 @@ def load_data():
     dfreview = pd.read_parquet(ruta5)
     dfbusiness = pd.read_parquet(ruta6)
     
-    return dfSitios, dfScraping, dfuser, dfReviewsFL, dfreview, dfbusiness
+    return dfSitios, dfScraping, dfReviewsFL, dfreview, dfbusiness
 
 # Cargar datos
-dfSitios, dfScraping, dfuser, dfReviewsFL, dfreview, dfbusiness = load_data()
+dfSitios, dfScraping, dfReviewsFL, dfreview, dfbusiness = load_data()
 
 # Crear modelos
 modelo_yelpdf = pd.merge(dfbusiness[['business_id', 'name', 'city', 'latitude', 'longitude', 'stars business']],
